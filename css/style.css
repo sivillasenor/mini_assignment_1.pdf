@@ -1,7 +1,29 @@
-#kitty{
+#dog{
     width: 100px;
     height: 100px;
     position: relative;
     top: 0;
     left: 0;
+}
+html {
+    background image: url("https://img.freepik.com/free-vector/pink-gradient-layer-patterned-background_53876-99010.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color:lightpink;
+    ;
+    text-decoration: underline;
+    text-align: center;
+}
+
+p { 
+    color: lavender;
+    font-weight: bold;
+    text-align: center;
+}
+
+h3,ul {
+    color:lightyellow;
 }
