@@ -1,29 +1,35 @@
 #dog{
-    width: 100px;
-    height: 100px;
-    position: relative;
-    top: 0;
-    left: 0;
+	width: 700px;
+	height: 400px;
+	position: relative;
+	/*top: 0;
+	left: 0;*/
 }
 html {
-    background image: url("https://img.freepik.com/free-vector/pink-gradient-layer-patterned-background_53876-99010.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+	background-image: url(https://marketplace.canva.com/EAEthkBVLfQ/1/0/1600w/canva-blush-wave-desktop-wallpaper-drvq3zaYl2E.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.dog {
+    font-family:'Trebuchet MS';
+    backdrop-filter: blur(5px);
 }
 
 h1 {
-    color:lightpink;
-    ;
-    text-decoration: underline;
-    text-align: center;
+	color:white;
+    font-weight: bold;
+	text-decoration: underline;
+	text-align: center;
 }
 
 p { 
-    color: lavender;
-    font-weight: bold;
-    text-align: center;
+	color: purple;
+	font-weight: bold;
+	text-align: match-parent;
 }
 
 h3,ul {
-    color:lightyellow;
+	color:green;
+    font-weight: bold;
+    text-align: match-parent;
 }
